@@ -1,13 +1,4 @@
-/**
-* Template Name: BizPage - v4.0.0
-* Template URL: https://bootstrapmade.com/bizpage-bootstrap-business-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
 
-/*--------------------------------------------------------------
-# General
---------------------------------------------------------------*/
 body {
   background: #fff;
   color: #666666;
@@ -15,7 +6,7 @@ body {
 }
 
 a {
-  color: #18d26e;
+  color: white;
   transition: 0.5s;
   text-decoration: none;
 }
@@ -126,7 +117,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header.header-scrolled {
-  background: rgba(0, 0, 0, 0.9);
+  background: #FE019A;
   padding: 18px 0;
 }
 
@@ -135,11 +126,12 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0;
   padding: 0;
   line-height: 1;
-  font-family: "Montserrat", sans-serif;
+  /*font-family: "Montserrat", */
+  font-style: Script MT Bold;
   font-weight: 700;
   letter-spacing: 3px;
   padding-left: 10px;
-  border-left: 4px solid orange;
+  border-left: 4px solid black;
 }
 
 #header .logo a {
@@ -188,7 +180,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav-menu a:hover, .nav-menu .active > a, .nav-menu li:hover > a {
-  color: #efc3eb;
+  color: yellow;
 }
 
 .nav-menu .drop-down ul {
